@@ -5,7 +5,6 @@ export function calcularMedia(n1, n2, n3) {
 export function definirStatus(media, elementoStatus) {
     const linha = elementoStatus.parentElement;
 
-    // LIMPA estilos antes (IMPORTANTE)
     linha.style.color = "";
     linha.style.fontWeight = "";
     linha.style.fontSize = "";
