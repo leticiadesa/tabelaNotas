@@ -1,11 +1,10 @@
 import { calcularMedia, definirStatus } from './opc.js';
 
-// Total de alunos na tabela
 const totalAlunos = 7;
 
 for (let i = 1; i <= totalAlunos; i++) {
 
-    // Pegando notas
+    
     const nota1El = document.querySelector(`.nota1_aluno${i}`);
     const nota2El = document.querySelector(`.nota2_aluno${i}`);
     const nota3El = document.querySelector(`.nota3_aluno${i}`);
@@ -17,7 +16,6 @@ for (let i = 1; i <= totalAlunos; i++) {
     // Calculando média
     const media = calcularMedia(nota1, nota2, nota3);
 
-    // Pegando elementos de saída
     const mediaEl = document.querySelector(`.media_aluno${i}`);
     const statusEl = document.querySelector(`.status_aluno${i}`);
 
